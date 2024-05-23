@@ -53,7 +53,7 @@ function start() {
   //Adds Bob
   addPersonToTheList(freelancers[1]);
   updateAveragePrice(freelancers[1]);
-  //Remove Alice & Bob from the array
+  // Remove Alice & Bob from the array
   freelancers.splice(0, 2);
   initPersonGenerator();
 }
